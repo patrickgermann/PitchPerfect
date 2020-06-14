@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CD158A31249645A800A87447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD158A30249645A800A87447 /* AppDelegate.swift */; };
 		CD158A33249645A800A87447 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD158A32249645A800A87447 /* SceneDelegate.swift */; };
-		CD158A35249645A800A87447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD158A34249645A800A87447 /* ViewController.swift */; };
+		CD158A35249645A800A87447 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD158A34249645A800A87447 /* RecordSoundsViewController.swift */; };
 		CD158A38249645A800A87447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD158A36249645A800A87447 /* Main.storyboard */; };
 		CD158A3A249645AA00A87447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD158A39249645AA00A87447 /* Assets.xcassets */; };
 		CD158A3D249645AA00A87447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD158A3B249645AA00A87447 /* LaunchScreen.storyboard */; };
+		CD53CF382496695F00756FAD /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD53CF372496695F00756FAD /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD158A2D249645A800A87447 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD158A30249645A800A87447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD158A32249645A800A87447 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD158A34249645A800A87447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD158A34249645A800A87447 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		CD158A37249645A800A87447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD158A39249645AA00A87447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD158A3C249645AA00A87447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD158A3E249645AA00A87447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD53CF372496695F00756FAD /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				CD158A30249645A800A87447 /* AppDelegate.swift */,
 				CD158A32249645A800A87447 /* SceneDelegate.swift */,
-				CD158A34249645A800A87447 /* ViewController.swift */,
+				CD158A34249645A800A87447 /* RecordSoundsViewController.swift */,
+				CD53CF372496695F00756FAD /* PlaySoundsViewController.swift */,
 				CD158A36249645A800A87447 /* Main.storyboard */,
 				CD158A39249645AA00A87447 /* Assets.xcassets */,
 				CD158A3B249645AA00A87447 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD158A35249645A800A87447 /* ViewController.swift in Sources */,
+				CD158A35249645A800A87447 /* RecordSoundsViewController.swift in Sources */,
 				CD158A31249645A800A87447 /* AppDelegate.swift in Sources */,
+				CD53CF382496695F00756FAD /* PlaySoundsViewController.swift in Sources */,
 				CD158A33249645A800A87447 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
